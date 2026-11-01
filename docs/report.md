@@ -17,17 +17,8 @@
 - Программа 1: Формирует файл `/var/result/data.txt` из первых строк всех файлов каталога `/var/data`.
 - Программа 2: Ищет наименьшее число из файла `/var/data/data.txt` и сохраняет его третью степень в `/var/result/result.txt`.
 
-### Код приложения 1 (app1.py)
-*(ВСТАВИТЬ СЮДА КОД app1.py)*
-
-### Код приложения 2 (app2.py)
-*(ВСТАВИТЬ СЮДА КОД app2.py)*
-
-### Конфигурация Docker
-*(ВСТАВИТЬ СЮДА compose.yaml и Dockerfile'ы)*
-
 ### Результат работы
-*(ВСТАВИТЬ СКРИНШОТ ТЕРМИНАЛА С ВЫВОДОМ `docker compose up --build`)*
+<img width="922" height="350" alt="Снимок экрана — 2026-11-01 в 23 33 20" src="https://github.com/user-attachments/assets/19baca1f-4744-46b7-97d4-3adba475d915" />
 
 ---
 
@@ -37,16 +28,22 @@
 
 **1. Настройка контейнера RabbitMQ**
 Был настроен контейнер Docker с RabbitMQ и Management UI.
-*(ВСТАВИТЬ СКРИНШОТ ВЕБ-ИНТЕРФЕЙСА RABBITMQ)*
+<img width="1470" height="956" alt="Снимок экрана — 2026-11-01 в 23 36 17" src="https://github.com/user-attachments/assets/fe97cbd8-8032-4d2d-9c3a-63041a160576" />
 
 **2. Урок 1 (Hello World)**
-*(ВСТАВИТЬ СКРИНШОТ ТЕРМИНАЛОВ С ОТПРАВКОЙ И ПОЛУЧЕНИЕМ СООБЩЕНИЯ)*
+
+<img width="543" height="93" alt="Снимок экрана — 2026-11-01 в 23 42 10" src="https://github.com/user-attachments/assets/7d1b5a7f-b6cd-4302-a87c-7267e385b6ac" />
+
+<img width="484" height="56" alt="Снимок экрана — 2026-11-01 в 23 42 20" src="https://github.com/user-attachments/assets/5dbf2052-f734-4c86-b69c-be0ca1696449" />
+
 
 **3. Урок 2 (Work Queues)**
-*(ВСТАВИТЬ СКРИНШОТ ТЕРМИНАЛОВ С РАБОТОЙ worker.py и new_task.py)*
+
+<img width="441" height="73" alt="Снимок экрана — 2026-11-01 в 23 43 54" src="https://github.com/user-attachments/assets/8d534006-8204-4f3a-a3b3-64ae52e49ab2" />
 
 **4. Урок 3 (Publish/Subscribe)**
-*(ВСТАВИТЬ СКРИНШОТ ТЕРМИНАЛОВ С РАБОТОЙ receive_logs.py и emit_log.py)*
+
+<img width="671" height="120" alt="Снимок экрана — 2026-11-01 в 23 48 04" src="https://github.com/user-attachments/assets/31efd186-a179-4a07-b3af-92b6e3e38dc8" />
 
 ---
 
